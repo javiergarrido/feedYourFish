@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D543F27121270904006DDFDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D543F27021270904006DDFDA /* AppDelegate.m */; };
+		D543F27421270905006DDFDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D543F27321270905006DDFDA /* ViewController.m */; };
+		D543F27721270905006DDFDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D543F27521270905006DDFDA /* Main.storyboard */; };
+		D543F27921270906006DDFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D543F27821270906006DDFDA /* Assets.xcassets */; };
+		D543F27C21270906006DDFDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D543F27A21270906006DDFDA /* LaunchScreen.storyboard */; };
+		D543F27F21270906006DDFDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D543F27E21270906006DDFDA /* main.m */; };
+		D58A3A7A212B7D6200001EDA /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58A3A78212B7D6200001EDA /* Interface.storyboard */; };
+		D58A3A7C212B7D6800001EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58A3A7B212B7D6800001EDA /* Assets.xcassets */; };
+		D58A3A83212B7D6A00001EDA /* FeedCleoWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D58A3A82212B7D6900001EDA /* FeedCleoWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D58A3A89212B7D6A00001EDA /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58A3A88212B7D6A00001EDA /* InterfaceController.m */; };
+		D58A3A8C212B7D6A00001EDA /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D58A3A8B212B7D6A00001EDA /* ExtensionDelegate.m */; };
+		D58A3A8F212B7D6A00001EDA /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58A3A8E212B7D6A00001EDA /* NotificationController.m */; };
+		D58A3A91212B7D6D00001EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58A3A90212B7D6D00001EDA /* Assets.xcassets */; };
+		D58A3A96212B7D6D00001EDA /* FeedCleoWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D58A3A76212B7D6200001EDA /* FeedCleoWatch.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D58A3A84212B7D6A00001EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D543F26421270904006DDFDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58A3A81212B7D6900001EDA;
+			remoteInfo = "FeedCleoWatch Extension";
+		};
+		D58A3A94212B7D6D00001EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D543F26421270904006DDFDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58A3A75212B7D6200001EDA;
+			remoteInfo = FeedCleoWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D58A3A9A212B7D6D00001EDA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D58A3A83212B7D6A00001EDA /* FeedCleoWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58A3A9E212B7D6D00001EDA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D58A3A96212B7D6D00001EDA /* FeedCleoWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D543F26C21270904006DDFDA /* FeedCleo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedCleo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D543F26F21270904006DDFDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D543F27021270904006DDFDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D543F27221270905006DDFDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D543F27321270905006DDFDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D543F27621270905006DDFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D543F27821270906006DDFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D543F27B21270906006DDFDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D543F27D21270906006DDFDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D543F27E21270906006DDFDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D58A3A76212B7D6200001EDA /* FeedCleoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedCleoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58A3A79212B7D6200001EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D58A3A7B212B7D6800001EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58A3A7D212B7D6800001EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58A3A82212B7D6900001EDA /* FeedCleoWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FeedCleoWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58A3A87212B7D6A00001EDA /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D58A3A88212B7D6A00001EDA /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D58A3A8A212B7D6A00001EDA /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		D58A3A8B212B7D6A00001EDA /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		D58A3A8D212B7D6A00001EDA /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		D58A3A8E212B7D6A00001EDA /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		D58A3A90212B7D6D00001EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58A3A92212B7D6D00001EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58A3A93212B7D6D00001EDA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D543F26921270904006DDFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58A3A7F212B7D6900001EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D543F26321270904006DDFDA = {
+			isa = PBXGroup;
+			children = (
+				D543F26E21270904006DDFDA /* FeedCleo */,
+				D58A3A77212B7D6200001EDA /* FeedCleoWatch */,
+				D58A3A86212B7D6A00001EDA /* FeedCleoWatch Extension */,
+				D543F26D21270904006DDFDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D543F26D21270904006DDFDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D543F26C21270904006DDFDA /* FeedCleo.app */,
+				D58A3A76212B7D6200001EDA /* FeedCleoWatch.app */,
+				D58A3A82212B7D6900001EDA /* FeedCleoWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D543F26E21270904006DDFDA /* FeedCleo */ = {
+			isa = PBXGroup;
+			children = (
+				D543F26F21270904006DDFDA /* AppDelegate.h */,
+				D543F27021270904006DDFDA /* AppDelegate.m */,
+				D543F27221270905006DDFDA /* ViewController.h */,
+				D543F27321270905006DDFDA /* ViewController.m */,
+				D543F27521270905006DDFDA /* Main.storyboard */,
+				D543F27821270906006DDFDA /* Assets.xcassets */,
+				D543F27A21270906006DDFDA /* LaunchScreen.storyboard */,
+				D543F27D21270906006DDFDA /* Info.plist */,
+				D543F27E21270906006DDFDA /* main.m */,
+			);
+			path = FeedCleo;
+			sourceTree = "<group>";
+		};
+		D58A3A77212B7D6200001EDA /* FeedCleoWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D58A3A78212B7D6200001EDA /* Interface.storyboard */,
+				D58A3A7B212B7D6800001EDA /* Assets.xcassets */,
+				D58A3A7D212B7D6800001EDA /* Info.plist */,
+			);
+			path = FeedCleoWatch;
+			sourceTree = "<group>";
+		};
+		D58A3A86212B7D6A00001EDA /* FeedCleoWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D58A3A87212B7D6A00001EDA /* InterfaceController.h */,
+				D58A3A88212B7D6A00001EDA /* InterfaceController.m */,
+				D58A3A8A212B7D6A00001EDA /* ExtensionDelegate.h */,
+				D58A3A8B212B7D6A00001EDA /* ExtensionDelegate.m */,
+				D58A3A8D212B7D6A00001EDA /* NotificationController.h */,
+				D58A3A8E212B7D6A00001EDA /* NotificationController.m */,
+				D58A3A90212B7D6D00001EDA /* Assets.xcassets */,
+				D58A3A92212B7D6D00001EDA /* Info.plist */,
+				D58A3A93212B7D6D00001EDA /* PushNotificationPayload.apns */,
+			);
+			path = "FeedCleoWatch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D543F26B21270904006DDFDA /* FeedCleo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D543F28221270906006DDFDA /* Build configuration list for PBXNativeTarget "FeedCleo" */;
+			buildPhases = (
+				D543F26821270904006DDFDA /* Sources */,
+				D543F26921270904006DDFDA /* Frameworks */,
+				D543F26A21270904006DDFDA /* Resources */,
+				D58A3A9E212B7D6D00001EDA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58A3A95212B7D6D00001EDA /* PBXTargetDependency */,
+			);
+			name = FeedCleo;
+			productName = FeedCleo;
+			productReference = D543F26C21270904006DDFDA /* FeedCleo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58A3A75212B7D6200001EDA /* FeedCleoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58A3A9B212B7D6D00001EDA /* Build configuration list for PBXNativeTarget "FeedCleoWatch" */;
+			buildPhases = (
+				D58A3A74212B7D6200001EDA /* Resources */,
+				D58A3A9A212B7D6D00001EDA /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58A3A85212B7D6A00001EDA /* PBXTargetDependency */,
+			);
+			name = FeedCleoWatch;
+			productName = FeedCleoWatch;
+			productReference = D58A3A76212B7D6200001EDA /* FeedCleoWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D58A3A81212B7D6900001EDA /* FeedCleoWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58A3A97212B7D6D00001EDA /* Build configuration list for PBXNativeTarget "FeedCleoWatch Extension" */;
+			buildPhases = (
+				D58A3A7E212B7D6900001EDA /* Sources */,
+				D58A3A7F212B7D6900001EDA /* Frameworks */,
+				D58A3A80212B7D6900001EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FeedCleoWatch Extension";
+			productName = "FeedCleoWatch Extension";
+			productReference = D58A3A82212B7D6900001EDA /* FeedCleoWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D543F26421270904006DDFDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Javier Garrido Díaz";
+				TargetAttributes = {
+					D543F26B21270904006DDFDA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D58A3A75212B7D6200001EDA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D58A3A81212B7D6900001EDA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D543F26721270904006DDFDA /* Build configuration list for PBXProject "FeedCleo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D543F26321270904006DDFDA;
+			productRefGroup = D543F26D21270904006DDFDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D543F26B21270904006DDFDA /* FeedCleo */,
+				D58A3A75212B7D6200001EDA /* FeedCleoWatch */,
+				D58A3A81212B7D6900001EDA /* FeedCleoWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D543F26A21270904006DDFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D543F27C21270906006DDFDA /* LaunchScreen.storyboard in Resources */,
+				D543F27921270906006DDFDA /* Assets.xcassets in Resources */,
+				D543F27721270905006DDFDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58A3A74212B7D6200001EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58A3A7C212B7D6800001EDA /* Assets.xcassets in Resources */,
+				D58A3A7A212B7D6200001EDA /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58A3A80212B7D6900001EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58A3A91212B7D6D00001EDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D543F26821270904006DDFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D543F27421270905006DDFDA /* ViewController.m in Sources */,
+				D543F27F21270906006DDFDA /* main.m in Sources */,
+				D543F27121270904006DDFDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58A3A7E212B7D6900001EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58A3A8C212B7D6A00001EDA /* ExtensionDelegate.m in Sources */,
+				D58A3A89212B7D6A00001EDA /* InterfaceController.m in Sources */,
+				D58A3A8F212B7D6A00001EDA /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58A3A85212B7D6A00001EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58A3A81212B7D6900001EDA /* FeedCleoWatch Extension */;
+			targetProxy = D58A3A84212B7D6A00001EDA /* PBXContainerItemProxy */;
+		};
+		D58A3A95212B7D6D00001EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58A3A75212B7D6200001EDA /* FeedCleoWatch */;
+			targetProxy = D58A3A94212B7D6D00001EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D543F27521270905006DDFDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D543F27621270905006DDFDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D543F27A21270906006DDFDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D543F27B21270906006DDFDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D58A3A78212B7D6200001EDA /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58A3A79212B7D6200001EDA /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D543F28021270906006DDFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D543F28121270906006DDFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D543F28321270906006DDFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUBC6VGVAW;
+				INFOPLIST_FILE = FeedCleo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgarrido.FeedCleo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D543F28421270906006DDFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUBC6VGVAW;
+				INFOPLIST_FILE = FeedCleo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgarrido.FeedCleo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D58A3A98212B7D6D00001EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y47AL62E2R;
+				INFOPLIST_FILE = "FeedCleoWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgarrido.FeedCleo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D58A3A99212B7D6D00001EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y47AL62E2R;
+				INFOPLIST_FILE = "FeedCleoWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgarrido.FeedCleo.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		D58A3A9C212B7D6D00001EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUBC6VGVAW;
+				IBSC_MODULE = FeedCleoWatch_Extension;
+				INFOPLIST_FILE = FeedCleoWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgarrido.FeedCleo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		D58A3A9D212B7D6D00001EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LUBC6VGVAW;
+				IBSC_MODULE = FeedCleoWatch_Extension;
+				INFOPLIST_FILE = FeedCleoWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgarrido.FeedCleo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D543F26721270904006DDFDA /* Build configuration list for PBXProject "FeedCleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D543F28021270906006DDFDA /* Debug */,
+				D543F28121270906006DDFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D543F28221270906006DDFDA /* Build configuration list for PBXNativeTarget "FeedCleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D543F28321270906006DDFDA /* Debug */,
+				D543F28421270906006DDFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58A3A97212B7D6D00001EDA /* Build configuration list for PBXNativeTarget "FeedCleoWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58A3A98212B7D6D00001EDA /* Debug */,
+				D58A3A99212B7D6D00001EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58A3A9B212B7D6D00001EDA /* Build configuration list for PBXNativeTarget "FeedCleoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58A3A9C212B7D6D00001EDA /* Debug */,
+				D58A3A9D212B7D6D00001EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D543F26421270904006DDFDA /* Project object */;
+}
